@@ -1,6 +1,8 @@
 /*
- * This program is to calculate the area, perimeter and
- * diagonal of a rectangle based on args[0] and args[1]
+ * Week 2
+ * Title: Rectangle Calculator
+ * Description: This program is to calculate the area, perimeter and diagonal of a rectangle based on args[0] and args[1]
+ * Author: Theodorus Dapamede (SID.470239731)
  */
 public class RectangleCalculator {
 
@@ -11,8 +13,6 @@ public class RectangleCalculator {
 		double area=length*width;
 		double perimeter=2*(length+width);
 		double diagonal=Math.sqrt(Math.pow(length, 2)+Math.pow(width, 2));
-		System.out.println("Length= "+length);
-		System.out.println("Width = "+width);
 		System.out.println("Area= "+area);
 		System.out.println("Perimeter= "+perimeter);
 		System.out.println("Diagonal= "+diagonal);

@@ -1,6 +1,8 @@
 /*
- * This program is to calculate the day of submission.
- * By Theodorus Dapamede (SID. 470239731)
+ * Week 2
+ * Title: Remaining Days
+ * Description: This program is to calculate the day of submission.
+ * Author: Theodorus Dapamede (SID. 470239731)
  */
 public class RemainingDays {
 
@@ -26,7 +28,7 @@ public class RemainingDays {
 		else
 			System.out.println("You have input an invalid day for today!");
 		
-		dueday = dueday+DUE%7;//calculating the new dueday
+		dueday = dueday+DUE%7;//calculating the new "dueday"
 		
 		if (dueday > 7)
 			dueday=dueday-7;

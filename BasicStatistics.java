@@ -1,41 +1,31 @@
 
 public class BasicStatistics {
 	public static void main(String[]args){
-		double[] input = new double[Integer.parseInt(args[0])];
-		double sum=0;
-		int minIndex=0, maxIndex=0;
-		for(int i=0; i<input.length; i++){ //sum
-			input[i]= Integer.parseInt(args[i]);
-			sum += input[i];
+		int N = Integer.parseInt(args[0]);
+		double[] stats = new double[N];
+		double sum=0, average=0, min=Integer.parseInt(args[1]), max=min;
+		int low=0, high=0;
+		if(stats.length>0){
+			for(int i=0; i<stats.length; i++){
+				stats[i] = Integer.parseInt(args[i+1]);
+				sum = sum+stats[i];
+				if(stats[i]<min){
+					min=stats[i];
+				}
+				else if(stats[i]>max){
+					max=stats[i];
+				}
+			}
+			average=sum/N;
+			for(int j=0; j<stats.length; j++){
+				if(stats[j]<average){
+					low=low+1;
+				}
+				else if(stats[j]>average){
+					high=high+1;
+				}
+			}
 		}
-		for(int i=0;i<input.length; i++){ //max
-			if(input[i]>input[maxIndex])
-				maxIndex=i;
-		}
-		for(int i=0;i<input.length;i++){ //min
-			if(input[i]<input[minIndex])
-				minIndex=i;
-		}
-		double average = (sum/input.length);
-		
-		int smaller=0;
-		for(int i=0;i<input.length;i++){
-			if(input[i]>average)
-				smaller++;
-		}
-		
-		int larger=0;
-		for(int i=0;i<input.length;i++){
-			if(input[i]<average)
-				larger++;
-		}
-		
-		System.out.println("Sum "+sum);
-		System.out.println("Average "+average);
-		System.out.println("Min "+input[minIndex]);
-		System.out.println("Max "+input[maxIndex]);		
-		System.out.println("Smaller "+smaller);
-		System.out.println("Larger "+larger);
+		System.out.printf("Sum: %2.1f, Average: %2.1f, Min: %2.1f, Max: %2.1f, Smaller: %2d, Larger: %2d", sum, average, min, max, low, high);
 	}
-
 }
