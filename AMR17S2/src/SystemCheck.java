@@ -16,38 +16,22 @@ public class SystemCheck {
 	 * NameCheck
 	 */
 	public boolean nameCheck(String name) {
-		Scanner scan = new Scanner(name);
-		String input = scan.nextLine();
-		int a=0;
-		while(input.length()>0){
-			for(int i=0; i<input.length(); i++){
-				if(!Character.isAlphabetic(input.charAt(i))){
-					a = 1;
+		String[] checkName = name.split(" ");
+		int a = 0;
+		for(int i=0; i<checkName.length; i++) { //Per word check
+			for(int j=0; j<checkName[i].length();j++) { //Per letter in word check
+				if(!Character.isAlphabetic(checkName[i].charAt(j))||!Character.isUpperCase(checkName[i].charAt(0))) {
+					a=1;
+					break;
 				}
-				else if(Character.isUpperCase(input.charAt(0))){
-					String names[] = input.split(" ");
-					for(int j=0; j<names.length; j++){
-						for(int k=0; k<names[j].length(); k++){
-							if(Character.isUpperCase(names[j].charAt(0))){
-								a=2;
-							}
-							else a=1;
-						}
-					}
+				else {
+					a=2;
 				}
-				else a=1;
 			}
 		}
-		if(a==2){
-			scan.close();
-			return true;
-		}
-		else{
-			scan.close();
-			return false;
-		}
+		if(a==2) return true;
+		else return false;
 	}
-	
 	
 	/*
 	 * DateCheck

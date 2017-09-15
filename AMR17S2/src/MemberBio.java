@@ -16,9 +16,14 @@ public class MemberBio {
 
 
 	// Constructors
-	public MemberBio() {
-		number = 0;
-		name = null;
+	public MemberBio(int number, String name) { //must have at least number and name
+		this.number = number;
+		//SysCheck Name
+		SystemCheck checkName = new SystemCheck();
+		if(checkName.nameCheck(name)) {
+			this.name = name;
+		}
+		else this.name = "INVALID";
 		birthday = null;
 		address = null;
 		mileage = 0;

@@ -1,12 +1,29 @@
 
 public class Tester {
-	public static final String DASHSHORT = new String(new char[4]).replace("\0", "-");
-	public static final String DASHLONG = new String(new char[25]).replace("\0", "-");
 	public static void main(String[]args) {
-		int i = 809;
-		String tier = "mileage";
-		System.out.printf("%squery age "+tier+"%s%n",DASHSHORT,DASHSHORT);
-		System.out.printf("number %05d\n", i);
-		System.out.printf("%s\n",DASHLONG);
+		Core jet = new Core();
+		MemberBio a = new MemberBio(1001, "Charlie");
+		MemberBio b = new MemberBio(1002, "Brave");
+		MemberBio c = new MemberBio(1003, "Alpha");
+		MemberBio d = new MemberBio(1004, "Hakuna Matata");
+		
+		jet.addMember(a);
+		jet.addMember(b);
+		jet.addMember(c);
+		jet.addMember(d);
+
+		double n = 10000;
+		for(int i=0; i<jet.size(); i++) {
+			jet.get(i).earnMileage(n);
+			n += 20000;
+		}
+		System.out.println("Initial");
+		jet.printAll();
+		jet.sort();
+		System.out.println("\nAfter sorted");
+		jet.printAll();
+		
+		jet.query("query tier silver");
+		jet.query("query age mileage");
 	}
 }
