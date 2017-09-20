@@ -32,9 +32,10 @@ public class W7_2 {
 	public int find(String text) {
 		for(int j=0; j<input.size(); j++) {
 			if(input.get(j).equals(text)) {
-				System.out.println(j);;
+				System.out.print(j+" ");
 			}
 		}
+		System.out.println("");
 		return -1;
 	}
 
@@ -44,6 +45,9 @@ public class W7_2 {
 			int j = parameter[i];
 			modified.add(input.get(j));
 		}
+		for(int i=0; i<modified.size();i++) {
+			System.out.print(modified.get(i)+" ");
+		}
 		return modified;
 	}
 	
@@ -52,10 +56,11 @@ public class W7_2 {
 		System.out.println("Please input text:");
 		W7_2 words = new W7_2();
 		words.scan();
-		for(int i=0; i<words.size(); i++) {
+/*		for(int i=0; i<words.size(); i++) {
 			System.out.println(words.get(i));
-		}
-		words.find("Hello");
-		
+		}*/
+		words.find("y");
+		int [] parameter = {1, 3, 5};
+		words.modify(parameter);
 	}
 }
