@@ -14,7 +14,7 @@ public class TextFileO{
 				out.printf("%d", in.nextInt());
 				out.println();
 			}
-			out.close();
+			out.close(); // closes the stream
 			System.out.println("inputs written into file successfully!");
 		}
 		
@@ -23,3 +23,7 @@ public class TextFileO{
 		}
 	}
 }
+
+
+// PrintWriter out = new PrintWriter(new FileWriter(fw, true));
+// append the new contents to the end of the file
