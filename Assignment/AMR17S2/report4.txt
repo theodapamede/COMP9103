@@ -1,0 +1,51 @@
+----query tier Gold----
+number 00002
+name Tom Swift
+tier Gold
+mileage 1000.00km
+
+number 10000
+name Tom Swift
+tier Gold
+mileage 1000.00km
+-----------------------
+
+----query age mileage----
+Total Airline Members: 7
+Age based mileage distribution
+(0,8]: 10000
+(8,18]: 2000
+(18,65]: 0
+(65,-): 10000
+Unknown: 2000
+-------------------------
+
+----query age mileage----
+Total Airline Members: 7
+Age based mileage distribution
+(0,8]: 10000
+(8,18]: 13000 
+(18,65]: 1000
+(65,-):  10000
+Unknown: 0 
+-------------------------
+
+----query tier Gold----
+number 10003
+name Posephine Bloggs
+birthday 01/06/1980
+tier Gold
+
+number 00002
+name Tom Swift
+birthday 01/01/2000
+tier Gold
+mileage 11000.00km
+point 5000.00
+
+number 10000
+name Tom Swift
+birthday 01/01/1957
+tier Gold
+mileage 1000.00km
+-----------------------

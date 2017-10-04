@@ -1,3 +1,7 @@
+/**demo on the use of javadoc
+ * example
+ * @author Theo Dapamede
+ */
 
 public class Car {
 	private double speed;
@@ -15,7 +19,7 @@ public class Car {
 		position = p;
 		accelerationPower = a;
 		brakePower = b;
-		speed = 0.0;
+		speed = s;
 		acceleratorOn = true;
 		brakeOn = false;
 	}

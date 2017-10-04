@@ -1,0 +1,43 @@
+number 11222
+name David Bloggs
+tier Silver
+mileage 500.00km
+points 250.00
+
+number 00001
+name Tom Levis
+tier Silver
+points 3500.00
+
+number 00002
+name Tom Levis
+tier Platinum
+mileage 100000.00km
+points 25000.00
+
+number 00003
+name Tom Levis
+tier Silver
+mileage 400.00km
+points 100.00
+
+number 00010
+name William Swift
+tier Silver
+points 4500.00
+
+number 00020
+name William Swift
+tier Silver
+points 300.00
+
+number 10000
+name Taylor Smith
+tier Silver
+mileage 8000.00km
+points 3000.00
+
+number 20000
+name Taylor Smith
+tier Platinum
+points 50000.00

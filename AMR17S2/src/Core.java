@@ -4,13 +4,18 @@
  * @author Theo Dapamede
  *
  */
-import java.util.ArrayList;
+import java.util.*;
+import java.io.*;
 
 public class Core {
 	//Fields
 	private ArrayList<MemberBio> memberDB;
 	public static final String DASHSHORT = new String(new char[7]).replace("\0", "-");
 	public static final String DASHLONG = new String(new char[31]).replace("\0", "-");
+	public File instructions;
+	public File members;
+	public File report;
+	public File results;
 
 	//Constructors
 	public Core() {

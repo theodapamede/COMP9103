@@ -1,0 +1,12 @@
+earn number 11222; mileage 500km
+redeem number 00001; points 1000
+
+earn number 00002; mileage 100000.00km
+earn number 00003; mileage 400.00km
+
+redeem number 00010; points 1500
+redeem number 00020; points 4000
+
+earn number 10000; mileage 4000km
+earn number 10000; mileage 4000km
+redeem number 20000; points 50000

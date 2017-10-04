@@ -1,0 +1,27 @@
+number 11221
+name William Bloggs
+birthday 01/01/1980
+tier Silver
+mileage 100.00km
+points 232.00
+
+number 00001
+name Linda Evans
+birthday 01/01/2013
+tier Silver
+address 1 Grace Street, Lane Cove, NSW, 2066
+
+number 22200
+name Linda Evans
+tier Silver
+
+number 10123
+name William Hill
+tier Silver
+
+number 00111
+name Lily Jackson
+birthday 01/11/1967
+tier Gold
+
+

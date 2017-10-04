@@ -1,0 +1,33 @@
+number 11222
+name David Bloggs
+tier Gold
+
+number 00001 
+name Tom Levis
+tier Silver
+points 4500
+
+number 00002
+name Tom Levis
+tier Silver
+
+number 00003
+name Tom Levis
+
+number 00010
+name William Swift
+tier Gold
+points 6000
+
+number 00020
+name William Swift
+tier Silver
+points 300
+
+number 10000
+name Taylor Smith
+tier Gold
+
+number 20000
+name Taylor Smith
+points 100000.00

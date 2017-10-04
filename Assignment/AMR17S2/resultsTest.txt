@@ -1,0 +1,57 @@
+Number: 11222
+Name: David Bloggs
+Birthday: null
+Tier: Gold
+Mileage: -1.00
+Points: -1.00
+Address: null
+
+Number: 00001
+Name: Tom Levis
+Birthday: null
+Tier: Silver
+Mileage: -1.00
+Points: 4500.00
+Address: null
+
+Number: 00002
+Name: Tom Levis
+Birthday: null
+Tier: Silver
+Mileage: -1.00
+Points: -1.00
+Address: null
+
+Number: 00003
+Name: Tom Levis
+Birthday: null
+Tier: null
+Mileage: -1.00
+Points: -1.00
+Address: null
+
+Number: 00010
+Name: William Swift
+Birthday: null
+Tier: Gold
+Mileage: -1.00
+Points: 6000.00
+Address: null
+
+Number: 00020
+Name: William Swift
+Birthday: null
+Tier: Silver
+Mileage: -1.00
+Points: 300.00
+Address: null
+
+Number: 10000
+Name: Taylor Smith
+Birthday: null
+Tier: Gold
+Mileage: -1.00
+Points: -1.00
+Address: null
+
+

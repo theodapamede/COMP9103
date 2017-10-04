@@ -1,0 +1,30 @@
+number 11222
+name Durant Davis
+birthday 01/06/1987
+tier Gold
+mileage 100.00km
+points 500.00
+address 1 Grace Street, Lane Cove, NSW, 2066
+
+number 01111
+name Durant Davis
+birthday 03/06/2007
+tier Silver
+
+number 10021
+name Jennifer lewis
+birthday 02/03/1990
+tier Silver
+mileage 1234.23km
+
+number 11111
+name Marry Brown
+tier Silver
+
+number 00001
+name Linda Evans
+tier Silver
+
+number 11220
+name Linda Evans
+tier Silver

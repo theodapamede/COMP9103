@@ -1,0 +1,21 @@
+add number 00001; name Linda Evans; address 1 Grace Street, Lane Cove, NSW, 2066; birthday 1/1/2013
+add number 22211; tier Gold;
+
+add number 22200; address 1 Grace Street, Lane Cove, NSW, 2a66; name Linda Evans;
+
+
+add number 00122; name William12 Hill; birthday 1-1-2013
+add number 001aa; name William Hill; birthday 1/1/2013
+add number 10123; name William Hill; birthday 30/2/2013
+
+add number 00111; tier Gold; name Tom Swift; birthday 1-1-2013;
+delete number 01000
+delete name James Bloggs
+
+add number 11221; name William Bloggs; tier Silver; mileage 100km; points 232
+
+add number 00111; name Lily Jackson; birthday 1/11/1967;
+
+
+
+
