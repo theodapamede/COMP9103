@@ -5,7 +5,7 @@ public class Tester {
 		MemberBio a = new MemberBio(1001, "Charlie");
 		MemberBio b = new MemberBio(1002, "Brave");
 		MemberBio c = new MemberBio(1003, "Alpha");
-		MemberBio d = new MemberBio(1004, "Hakuna Matata");
+		MemberBio d = new MemberBio(1004, "WilliadkdD Matata");
 		
 		jet.addMember(a);
 		jet.addMember(b);

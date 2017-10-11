@@ -1,4 +1,4 @@
-package amr17s2;
+package AMR17S2;
 
 import java.util.*;
 import java.io.*;

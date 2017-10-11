@@ -1,65 +1,38 @@
-Number: 11221
-Name: William Bloggs
-Birthday: 01/01/1980
-Tier: Gold
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    20000
+name      William Shakes
+birthday  01/02/2009
 
-Number: 00001
-Name: Linda Evans
-Birthday: 01/01/2013
-Tier: null
-Mileage: 0.00km
-Points: 0.00
-Address: 1 Grace Street, Lane Cove, NSW, 2066
+number    10000
+name      Tom Swift
+birthday  1/1/1957
+tier      Gold
+mileage   1000.00km
 
-Number: 22200
-Name: Linda Evans
-Birthday: null
-Tier: null
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    00002
+name      Tom Swift
+birthday  1/1/2000
+tier      Gold
+mileage   11000.00km
+points    5500.00
 
-Number: 00122
-Name: William12 Hill
-Birthday: 01/01/2013
-Tier: null
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    10001
+name      Tom Swift
+birthday  01/01/2000
+mileage   2000.00km
 
-Number: 10123
-Name: William Hill
-Birthday: 02/03/2013
-Tier: null
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    10002
+name      David Swift
+birthday  02/02/2010
+mileage   10000.00km
 
-Number: 00111
-Name: Tom Swift
-Birthday: 01/01/2013
-Tier: Gold
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    10003
+name      Posephine Bloggs
+birthday  01/06/1980
+tier      Gold
 
-Number: 11221
-Name: William Bloggs
-Birthday: null
-Tier: Silver
-Mileage: 100.00km
-Points: 232.00
-Address: null
-
-Number: 00111
-Name: Lily Jackson
-Birthday: 01/11/1967
-Tier: null
-Mileage: 0.00km
-Points: 0.00
-Address: null
+number    20003
+name      Posephine Bloggs
+birthday  02/02/1950
+mileage   10000.00km
 
 

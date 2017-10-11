@@ -1,4 +1,4 @@
-package amr17s2;
+package AMR17S2;
 
 public class Address {
 	//Fields

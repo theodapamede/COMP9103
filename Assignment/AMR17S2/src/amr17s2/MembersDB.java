@@ -1,4 +1,4 @@
-package amr17s2;
+package AMR17S2;
 
 import java.util.*;
 
@@ -61,7 +61,7 @@ public class MembersDB {
 		StringBuilder sb = new StringBuilder();
 		for(Member m : database) {
 			sb.append(m.toString());
-			sb.append("\n\n");
+			sb.append("\n");
 		}
 		return sb.toString();
 	}
